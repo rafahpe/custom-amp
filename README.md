@@ -10,6 +10,10 @@ So, if you want to install Airwave in your newest and shiniest box, you may find
 
 The instructions in this repo help you build a customized installation ISO for Airwave that includes the packages that you need.
 
+## DISCLAIMER
+
+THIS IS A PERSONAL HOW-TO. THIS PAGE IS NOT AFFILIATED IN ANY MANNER TO HPE OR ARUBA. THIS IS NOT A SUPPORTED GUIDE, NOR DEPLOYING AIRWAVE IN UNSUPPORTED HARDWARE IS ENCOURAGED BY ANY MEANS, BE ME OR HPE ARUBA. AND OF COURSE, SUCH AN INSTALLATION WOULD NOT BE SUPPORTED BY THE VENDOR. REDISTRIBUTION OF A MODIFIED AIRWAVE IMAGE IS OF COURSE NOT ALLOWED, AS STATED BY THE AIRWAVE LICENSE.
+
 ## Step 1 - Install Airwave
 
 To package a customized ISO, you will first need a development environment to work in. The best option is to install Airwave in a virtual machine, and use that installation as your baseline.
@@ -244,3 +248,4 @@ linux ks=cdrom:/ks.cfg
 ```
 linux inst.ks=cdrom:/dev/cdrom:/ks/ks.cfg
 ```
+
