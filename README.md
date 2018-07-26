@@ -188,6 +188,15 @@ You can also modify the post-install settings in the ks.cfg. You will probably w
 /usr/sbin/usermod -s /root/git/mercury/install/amp-install root
 ```
 
+You will also want to create an */etc/sysconfig/network* file, otherwise the Airwave install script will complain that the file is not found:
+
+```bash
+cat > /etc/sysconfig/network <<EOF
+NETWORKING=yes
+HOSTNAME=amp.mydomain.local
+EOF
+```
+
 ## Build your image
 
 ```bash
