@@ -78,7 +78,6 @@ rm -rf "${BUILD_DIR}/repodata"
 mkdir -p "${BUILD_DIR}/repodata"
 cp /tmp/amp/repodata/*-comps.xml.gz "${BUILD_DIR}/comps.xml.gz"
 gunzip "${BUILD_DIR}/comps.xml.gz"
-cp -f /root/anaconda-ks.cfg "${BUILD_DIR}/ks.cfg"
 ```
 
 ## Step 3 - Customize your ks.cfg
