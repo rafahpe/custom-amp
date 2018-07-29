@@ -231,7 +231,7 @@ xorriso -as mkisofs \
   -boot-load-size 4 \
   -boot-info-table \
   -eltorito-alt-boot \
-  -e EFI/BOOT/BOOTX64.efi \
+  -e images/efiboot.img \
   -no-emul-boot \
   -isohybrid-gpt-basdat \
   -o custom-amp.iso \
